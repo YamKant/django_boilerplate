@@ -18,6 +18,7 @@ services:
       - POSTGRES_NAME=postgres
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=postgres
+      - POSTGRES_HOST=db
     env_file:
       - code/.env
     depends_on:
