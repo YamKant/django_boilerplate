@@ -4,6 +4,5 @@ ENV PYTHONDONTWRITEBYTECODE=1
 ENV PYTHONUNBUFFERED=1
 WORKDIR /code
 COPY requirements.txt /code/
-RUN pip install -r requirements.txt
-#COPY run.sh /
-#RUN /run.sh
+COPY run.sh /code/
+RUN /bin/sh run.sh
