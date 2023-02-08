@@ -7,6 +7,4 @@ class OpenGraphView(APIView):
     template_name = 'tools/open_graph.html'
 
     def get(self, request):
-        # queryset = 
-        # self.object = self.get_object()
-        return Response({'msg': 'hihi'})
+        return Response({'msg': 'open_graph page rendering'})

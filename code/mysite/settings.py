@@ -30,9 +30,7 @@ DEBUG = True if os.environ.get('ENV_DEBUG_MODE') == '1' else False
 
 ALLOWED_HOSTS = ['*']
 
-
 # Application definition
-
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
